@@ -42,7 +42,7 @@ const AddEmployeeForm = ({ onSubmit, employee, isEditing, onCancel }) => {
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         <TextField
           type="text"
-          name="firstName"
+          name="first_name"
           label="First Name"
           value={formData.first_name}
           onChange={handleChange}
@@ -51,7 +51,7 @@ const AddEmployeeForm = ({ onSubmit, employee, isEditing, onCancel }) => {
         />
         <TextField
           type="text"
-          name="lastName"
+          name="last_name"
           label="Last Name"
           value={formData.last_name}
           onChange={handleChange}
